@@ -1,0 +1,76 @@
+{
+  "autores": [
+    {
+      "id": "1",
+      "nombre": "Gabriel García Márquez",
+      "pais": "Colombia"
+    },
+    {
+      "id": "2",
+      "nombre": "Miguel de Cervantes",
+      "pais": "España"
+    },
+    {
+      "id": "3",
+      "nombre": "J.K. Rowling",
+      "pais": "Reino Unido"
+    },
+    {
+      "id": "4",
+      "nombre": "Ernest Hemingway",
+      "pais": "Estados Unidos"
+    },
+    {
+      "id": "5",
+      "nombre": "Isabel Allende",
+      "pais": "Chile"
+    },
+    {
+      "id": "f797",
+      "nombre": "Antoine de Saint-Exupéry",
+      "pais": "Francia"
+    }
+  ],
+  "libros": [
+    {
+      "id": "2",
+      "titulo": "Don Quijote de la Mancha",
+      "autor": "Miguel de Cervantes"
+    },
+    {
+      "id": "3",
+      "titulo": "Harry Potter y la piedra filosofal",
+      "autor": "J.K. Rowling"
+    },
+    {
+      "id": "4",
+      "titulo": "El viejo y el mar",
+      "autor": "Ernest Hemingway"
+    },
+    {
+      "id": "5",
+      "titulo": "La casa de los espíritus",
+      "autor": "Isabel Allende"
+    },
+    {
+      "id": "6",
+      "titulo": "Crónica de una muerte anunciada",
+      "autor": "Gabriel García Márquez"
+    },
+    {
+      "id": "7",
+      "titulo": "El amor en los tiempos del cólera",
+      "autor": "Gabriel García Márquez"
+    },
+    {
+      "id": "0bb1",
+      "titulo": "El Principito",
+      "autor": "Antoine de Saint-Exupéry"
+    },
+    {
+      "id": "a244",
+      "titulo": "Cien años de soledad",
+      "autor": "Gabriel García Márquez"
+    }
+  ]
+}

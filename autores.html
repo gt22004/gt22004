@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autores - Biblioteca Virtual</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+<header>
+  <a href="index.html" class="left">Home</a>
+  <a href="libros.html" class="left">Libros</a>
+  <a href="autores.html" class="left active">Autores</a>
+  <a href="acerca.html" class="right">Acerca de Nosotros</a>
+</header>
+
+<div class="contenido">
+  <h1>Gestión de Autores</h1>
+  <form id="formAutor">
+    <input type="text" id="nombre" placeholder="Ingresa el nombre del autor" required>
+    <input type="text" id="pais" placeholder="Ingresa el país del autor" required>
+    <button type="submit">+ Agregar Autor</button>
+  </form>
+  <h2>Lista de Autores</h2>
+  <ul id="listaAutores">
+  </ul>
+  <script src="js/autores.js"></script>
+</div>
+</body>
+</html>

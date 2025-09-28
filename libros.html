@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Libros - Biblioteca Virtual</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+<header>
+  <a href="index.html" class="left">Home</a>
+  <a href="libros.html" class="left active">Libros</a>
+  <a href="autores.html" class="left">Autores</a>
+  <a href="acerca.html" class="right">Acerca de Nosotros</a>
+</header>
+
+<div class="contenido">
+  <h1>Gestión de Libros</h1>
+  <form id="formLibro">
+    <input type="text" id="titulo" placeholder="Ingresa el título del libro" required>
+    <input type="text" id="autor" placeholder="Ingresa el nombre del autor" required>
+    <button type="submit">+ Agregar Libro</button>
+  </form>
+  <h2>Lista de Libros</h2>
+  <ul id="listaLibros">  </ul>
+  <script src="js/libros.js"></script>
+</div>
+</body>
+</html>

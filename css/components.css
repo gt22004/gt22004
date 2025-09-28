@@ -1,0 +1,199 @@
+#formLibro, #formAutor {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+#formLibro input, #formAutor input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1em;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+#formLibro input:focus, #formAutor input:focus {
+  outline: none;
+  border-color: #4a69bd;
+  box-shadow: 0 0 0 3px rgba(74, 105, 189, 0.1);
+}
+#formLibro button, #formAutor button {
+  background: #4a69bd;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+#formLibro button:hover, #formAutor button:hover {
+  background: #3c5ba0;
+}
+#formLibro button:active, #formAutor button:active {
+  transform: translateY(1px);
+}
+.btn-home {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  border: 2px solid transparent;
+  display: inline-block;
+}
+
+.btn-home:hover {
+  transform: translateY(-2px);
+  border-color: #4a69bd;
+}
+
+.btn-home .sub-text {
+  display: block;
+  font-size: 0.9em;
+  color: #888;
+  margin-top: 5px;
+}
+.btn-lectura-overlay {
+  position: absolute;
+  top: 50%;
+  right: 22%;
+  transform: translateY(-50%);
+  background: rgba(39, 174, 96, 0.9);
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.img-home {
+   position: absolute;
+   top:10%;
+   right: 15%;
+}
+.btn-lectura-overlay:hover {
+  background: rgba(33, 154, 82, 0.95);
+  transform: translateY(-50%) scale(1.05);
+}
+
+#listaLibros, #listaAutores {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#listaLibros li {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  border-left: 4px solid #4a69bd;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+#listaAutores li {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  border-left: 4px solid #27ae60;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#listaLibros li:hover, #listaAutores li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+.seccion, .tecnologias, .referencias, .objetivos, .destacados, .cita {
+  background: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.seccion {
+  border-left: 4px solid #e74c3c;
+}
+.tecnologias {
+  border-left: 4px solid #f39c12;
+}
+.referencias {
+  border-left: 4px solid #27ae60;
+}
+.objetivos {
+  border-left: 4px solid #9b59b6;
+}
+.destacados {
+  border-left: 4px solid #4a69bd;
+}
+.cita {
+  text-align: center;
+  border-left: 4px solid #95a5a6;
+  font-style: italic;
+}
+.bienvenida {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  text-align: center;
+}
+.bienvenida h1 {
+  color: #4a69bd;
+  margin-bottom: 15px;
+  font-size: 2.2em;
+}
+.bienvenida p {
+  color: #666;
+  font-size: 1.1em;
+}
+@media (max-width: 768px) {
+  #formLibro, #formAutor {
+    padding: 20px;
+  }
+
+  #formLibro input, #formAutor input,
+  #formLibro button, #formAutor button {
+    padding: 12px;
+  }
+
+  .seccion, .tecnologias, .referencias, .objetivos {
+    padding: 20px;
+  }
+}
+
+#listaLibros li button, #listaAutores li button {
+  background: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-left: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+#listaLibros li button:hover, #listaAutores li button:hover {
+  background: #e9ecef;
+  transform: scale(1.1);
+}
+#listaLibros li button[title*="Editar"], #listaAutores li button[title*="Editar"] {
+  background: #fff3cd;
+  border-color: #ffc107;
+}
+
+#listaLibros li button[title*="Eliminar"], #listaAutores li button[title*="Eliminar"] {
+  background: #f8d7da;
+  border-color: #dc3545;
+}

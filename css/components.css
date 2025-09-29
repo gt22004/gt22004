@@ -76,11 +76,6 @@
   text-decoration: none;
 }
 
-.img-home {
-   position: absolute;
-   top:10%;
-   right: 15%;
-}
 .btn-lectura-overlay:hover {
   background: rgba(33, 154, 82, 0.95);
   transform: translateY(-50%) scale(1.05);
